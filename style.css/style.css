@@ -1,0 +1,51 @@
+/* body style */
+body{
+    width: 1600px;
+    height: 7335px;
+}
+
+
+
+/* header style */
+
+.header-section{
+    background-color: #FFF;
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    border-radius: 16px;
+    padding-top: 177px;
+    padding-bottom: 177px;
+    background-color:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    
+}
+
+
+.header-section-info{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    
+     
+}
+
+
+.header-second-style{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    
+}
+
+
