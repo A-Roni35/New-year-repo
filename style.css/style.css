@@ -151,7 +151,7 @@ body {
 
 .info-section {
     width: 1320px;
-    height: 382px;
+    height: 482px;
     flex-shrink: 0;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin-left: 140px;
@@ -159,7 +159,7 @@ body {
     margin-bottom: 120px;
     border-radius: 16px;
     text-align: center;
-    
+
 
 }
 
@@ -201,3 +201,32 @@ body {
     line-height: normal;
     text-transform: uppercase;
 }
+
+
+/* offer-section */
+
+
+.offer-section {
+    width: 1320px;
+    height: 488px;
+    background-color: antiquewhite;
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.offer-pic {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    margin-left:180px ;
+    margin-right:118px;
+}
+
+
+.offer-back-pic{
+    margin: 49px;
+}
+
