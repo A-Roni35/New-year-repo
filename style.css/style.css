@@ -13,8 +13,8 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     width: 1320px;
-    height: 600px;
-    margin: 50px 140px 0px 140px;
+    height: 260px;
+    margin: 50px 140px 120px 140px;
     border-radius: 16px;
     padding-top: 177px;
     padding-bottom: 177px;
@@ -45,7 +45,7 @@ body {
 
 .categories {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 120px;
     margin-left: 399px;
     margin-right: 398px;
     margin-bottom: 120px;
@@ -58,7 +58,7 @@ body {
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
-    margin-top: 120px 609px 48px 608px;
+    margin-top: 0px 609px 48px 608px;
 }
 
 .categories-paragraph {
@@ -68,6 +68,7 @@ body {
     font-style: normal;
     font-weight: 500;
     margin-top: 48px;
+    margin-bottom: 16px;
 }
 
 .all-categories {
@@ -75,7 +76,8 @@ body {
     font-family: Inter;
     font-size: 48px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
+    margin-top: 16px;
 }
 
 
@@ -159,6 +161,7 @@ body {
     margin-bottom: 120px;
     border-radius: 16px;
     text-align: center;
+    padding-top: 100px;
 
 
 }
@@ -187,6 +190,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    border-color: #F00;
+    border-right: #F00;
+    border-bottom: #F00;
     border-radius: 8px;
     background: #F00;
 }
@@ -209,11 +215,47 @@ body {
 .offer-section {
     width: 1320px;
     height: 488px;
-    background-color: antiquewhite;
     display: flex;
     margin-left: 140px;
     margin-right: 140px;
+    margin-bottom: 120px;
 }
+
+.offer-best-section {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 100px;
+    margin-bottom: 16px;
+}
+
+
+.offer-coming-section {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+
+.offer-paragraph {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+}
+
 
 .offer-pic {
     border-radius: 463px;
@@ -221,12 +263,123 @@ body {
     width: 463px;
     height: 463px;
     flex-shrink: 0;
-    margin-left:180px ;
-    margin-right:118px;
+    margin-left: 180px;
+    margin-right: 118px;
 }
 
 
-.offer-back-pic{
+.offer-back-pic {
     margin: 49px;
+}
+
+.offer-2024 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 112px;
+    margin-bottom: 16px;
+}
+
+.offer-paragraph-section {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.offer-happy-pic {
+    width: 140px;
+    height: 140px;
+    margin-top: 22px;
+
+}
+
+/* functional-section */
+
+.functional-section {
+    width: 1320px;
+    height: 986px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.functional-contain {
+    text-align: center;
+}
+
+.what-contain {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+
+.holiday {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-contain {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.functional-paragraph {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.discount {
+    background-image: url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    margin-left: 890px;
+    width: 429px;
+    height: 433px;
+}
+
+.discount-img {
+    width: 206.841px;
+    height: 206.841px;
+    margin-top: 150px;
+    margin-left: -100px;
+}
+
+.box {
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
 }
 
